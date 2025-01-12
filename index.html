@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Practice Page</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to <b><i>My Practice Page</i></b></h1>
+        <nav>
+            <ul>
+                <li><a href="#about"><u>About</u></a></li>
+                <li><a href="#services"><u>Services</u></a></li>
+                <li><a href="#contact"><u>Contact</u></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Hello! This is a practice webpage to demonstrate various <b>HTML</b> tags. 
+                I'm learning <i>web development</i>. Here's an image of a coding concept:
+            </p>
+            <figure>
+                <img src="https://via.placeholder.com/300" alt="Coding Image" width="300" height="200">
+                <figcaption><u>Figure:</u> An example placeholder image for coding.</figcaption>
+            </figure>
+        </section>
+
+        <section id="services">
+            <h2>Services</h2>
+            <ul>
+                <li><b>Web Design</b></li>
+                <li><i>Development</i></li>
+                <li><u>SEO Optimization</u></li>
+            </ul>
+            <ol>
+                <li>Understand the requirements</li>
+                <li>Create a prototype</li>
+                <li>Develop the solution</li>
+            </ol>
+
+            <h3>Pricing Table</h3>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Service</th>
+                        <th>Duration</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><b>Web Design</b></td>
+                        <td>1 Week</td>
+                        <td>$500</td>
+                    </tr>
+                    <tr>
+                        <td><i>Development</i></td>
+                        <td>2 Weeks</td>
+                        <td>$1000</td>
+                    </tr>
+                    <tr>
+                        <td><u>SEO Optimization</u></td>
+                        <td>5 Days</td>
+                        <td>$300</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch, feel free to send me an email at <a href="mailto:example@example.com"><b>example@example.com</b></a>.</p>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br>
+
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 <b><i>My Practice Page</i></b>. All rights reserved.</p>
+        <address>
+            Visit my portfolio: <a href="https://example.com" target="_blank"><u>example.com</u></a>
+        </address>
+    </footer>
+</body>
+</html>
